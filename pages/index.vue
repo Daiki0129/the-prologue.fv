@@ -265,7 +265,7 @@ export default {
   .img{
     width: 100%;
     height: 100%;
-    max-width: 370px;
+    max-width: 360px;
     min-height: 200px;
     display: flex;
     justify-content: center;
@@ -327,7 +327,7 @@ export default {
     margin: 30px 12px 30px 12px;
   }
   .footer_copy {
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 60px 0px;
   }
   .iframe_form {
     margin: 10px 0px 0px 0px;

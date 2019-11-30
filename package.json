@@ -1,8 +1,8 @@
 {
   "name": "the-prologue.fv",
   "version": "1.0.0",
-  "description": "My amazing Nuxt.js project",
-  "author": "",
+  "description": "The prologue ~シード投資家はあなたの物語のファン1号~",
+  "author": "F Ventures (K.D.)",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",

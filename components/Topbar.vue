@@ -6,7 +6,11 @@
       prominent
       elevate-on-scroll
     >
-      <v-toolbar-title class="image"><el-image src="https://assets.slush.org/sites/5/2018/02/27145048/F-Ventures.png" /></v-toolbar-title>
+      <v-toolbar-title class="image">
+        <a class="a_form" href="https://f-ventures.vc" target="_blank">
+          <el-image :src="require('~/assets/img/F-Ventures_logo.png')" />
+        </a>
+      </v-toolbar-title>
       <v-spacer></v-spacer>
       <a class="a_form" href="https://twitter.com/Fventures_jp" target="_blank">
         <el-button type="primary" class="nav_button_twitter" large>
@@ -49,12 +53,6 @@ export default {
         ,'HTML String', {
         dangerouslyUseHTMLString: true,
         showConfirmButton: false
-        // callback: action => {
-        //   this.$message({
-        //     type: 'info',
-        //     message: `action: ${ action }`
-        //   });
-        // }
       });
     }
   }
@@ -113,7 +111,7 @@ export default {
     align-items: center;
     text-align: center;
     padding: 10px 15px 10px 10px;
-    margin: 47px 0px 20px 10px;
+    margin: 55px 0px 20px 10px;
     font-size: 15px;
     font-weight: bold;
     display: center;
@@ -153,7 +151,7 @@ export default {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 18px;
     margin: 30px;
     font-size: 17px;
     font-weight: bold ;

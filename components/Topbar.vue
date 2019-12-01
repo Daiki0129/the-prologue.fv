@@ -14,7 +14,6 @@
       <v-spacer></v-spacer>
       <a class="a_form" href="https://docs.google.com/forms/d/e/1FAIpQLSfUOTLJO3ItHCT-CcBCwqD0FnQ3arEQWxJHzbUlKbRPvHRk9w/viewform?usp=sf_link" target="_blank">
         <el-button type="primary" class="nav_button_send" large>
-          <i class="el-icon-loading"></i>
           The Prologueに申し込む
         </el-button>
       </a>

@@ -5,8 +5,8 @@
       <div class="block">
         <div class="block">
           <h1 class="h1_subtitle1">The <span class="span_subtitle1">P</span>rologue</h1>
-          <p class="p_subtitle" :position="center">起業家との投資面談「The Prologue」実施中！</p>
-          <p class="p_subtitle" :position="center">福岡と東京に拠点を置く「F Ventures」との面談を誰でも申し込めます。</p>
+          <p class="p_subtitle" :position="center">プレシード・シード起業家向け投資面談「The Prologue」実施中！</p>
+          <p class="p_subtitle" :position="center">福岡と東京に拠点を置く「F Ventures」との面談を申し込めます！</p>
           <p class="p_subtitle" :position="center">資金調達や事業の壁打ち、お茶などお気軽にご連絡ください！</p>
         </div>
         <a class="a_form" href="https://docs.google.com/forms/d/e/1FAIpQLSfUOTLJO3ItHCT-CcBCwqD0FnQ3arEQWxJHzbUlKbRPvHRk9w/viewform?usp=sf_link" target="_blank">
@@ -58,7 +58,11 @@
         </div>
         <div class="container_text">
           <p class="p_subtitle" :position="center">力強く書かれた言葉。</p>
+        </div>
+        <div class="container_text">
           <p class="p_subtitle" :position="center">眠い目をこすりながら書かれた言葉。</p>
+        </div>
+        <div class="container_text">
           <p class="p_subtitle" :position="center">涙を流しながら書き殴られた言葉。</p>
         </div>
         <div class="container_text">
@@ -101,7 +105,8 @@
         </h1>
         <div class="container_text3">
           <p class="p_subtitle3" >所要時間: 約30分</p>
-          <p class="p_subtitle3" >場所: 東京・福岡・(テレカンも可)</p>
+          <p class="p_subtitle3" >対象: プレシード・シード起業家 (年齢問わず)</p>
+          <p class="p_subtitle3" >場所: 東京・福岡 (テレカンも可)</p>
           <p class="p_subtitle3" >日程: フォーム記入後に候補日程を表示したURLを送信致しますので、そちらから選択していただければと思います。</p>
           <p class="p_subtitle3" >*東京・福岡での具体的な場所は日程によって変動する場合がございますので、あらかじめ御了承ください。</p>
           <p class="p_subtitle3" >*テレカンの場合には、こちらからURLを送信致します。</p>
@@ -342,6 +347,7 @@ export default {
     height: 200px;
   }
   .footer_icon {
+    text-decoration: none;
     margin: 30px 12px 30px 12px;
   }
   .footer_copy {
@@ -391,6 +397,8 @@ export default {
     font-weight: bold ;
   }
   .twitter_icon {
+    text-decoration: none;
+    color: rgb(0, 183, 255);
     padding: 0px 5px 15px 0px;
     margin: 0px;
   }

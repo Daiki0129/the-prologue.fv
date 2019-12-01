@@ -15,10 +15,10 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description },
       { hid: 'og:site_name', property: 'og:site_name', content: pkg.description },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:url', property: 'og:url', content: 'https://f-ventures.vc' },
+      { hid: 'og:url', property: 'og:url', content: 'https://theprologuefv.com/' },
       { hid: 'og:title', property: 'og:title', content: pkg.description },
       { hid: 'og:description', property: 'og:description', content: pkg.description },
-      { hid: 'og:image', property: 'og:image', content: 'https://f-ventures.vc/wp/fv2016/images/fv-ogp.jpg' },
+      { hid: 'og:image', property: 'og:image', content: 'https://theprologuefv.com/_nuxt/img/f-ventures-theprologue.jpg' },
       { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image'}
     ],
     link: [
@@ -69,7 +69,7 @@ module.exports = {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,

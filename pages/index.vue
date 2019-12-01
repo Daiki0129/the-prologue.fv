@@ -17,8 +17,8 @@
           </v-btn>
         </a>
         <br>
-        <a class="a_form" href="https://twitter.com/intent/tweet?text=The Prologue 〜シード投資家はあなたの物語のファン1号。〜&url=https://the-prologue-fv.web.app/&via=Fventures_jp&hashtags=ThePrologueFV,FVentures,fv登竜門" target="_blank">
-          <v-icon class="twitter_icon" :size="40" :style="{ color: '#00acee' }">mdi-twitter</v-icon>
+        <a class="a_form" href="https://twitter.com/intent/tweet?text=The Prologue 〜シード投資家はあなたの物語のファン1号。〜&url=https://theprologuefv.com/&hashtags=ThePrologueFV,FVentures,fv登竜門" target="_blank">
+          <v-icon class="twitter_icon" :size="35" :style="{ color: '#00acee' }">mdi-twitter</v-icon>
           <span color="#00acee" class="span_tweet_container1">Tweet</span>
         </a>
       </div>
@@ -116,7 +116,7 @@
     <div class="container2">
       <div class="block">
        <h1 class="h1_subtitle3">
-          Form
+          FORM
         </h1>
         <form >
           <iframe class="iframe_form" src="https://docs.google.com/forms/d/e/1FAIpQLSfUOTLJO3ItHCT-CcBCwqD0FnQ3arEQWxJHzbUlKbRPvHRk9w/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
@@ -140,7 +140,7 @@
             </v-btn>
           </a>
           <br>
-          <a class="a_form" href="https://twitter.com/intent/tweet?text=The Prologue 〜シード投資家はあなたの物語のファン1号。〜&url=https://the-prologue-fv.web.app/&via=Fventures_jp&hashtags=ThePrologueFV,FVentures,fv登竜門" target="_blank">
+          <a class="a_form" href="https://twitter.com/intent/tweet?text=The Prologue 〜シード投資家はあなたの物語のファン1号。〜&url=https://theprologuefv.com/&hashtags=ThePrologueFV,FVentures,fv登竜門" target="_blank">
             <v-icon class="twitter_icon" :size="40" :style="{ color: '#00acee' }">mdi-twitter</v-icon>
             <span color="primary" class="span_tweet_container1">Tweet</span>
           </a>
@@ -387,6 +387,7 @@ export default {
     font-weight: bold ;
   }
   .span_container3 {
+    color: #fff;
     font-size: 20px;
     font-weight: bold ;
   }
@@ -399,8 +400,8 @@ export default {
   .twitter_icon {
     text-decoration: none;
     color: rgb(0, 183, 255);
-    padding: 0px 5px 15px 0px;
-    margin: 0px;
+    padding: 0px 5px 25px 0px;
+    margin: 0 0 10px 0;
   }
 }
 
@@ -522,18 +523,19 @@ export default {
     font-weight: bold ;
   }
   .span_container3 {
+    color: #fff;
     font-size: 30px;
     font-weight: bold ;
   }
   .span_tweet_container1 {
-    padding: 40px 0px 10px 0px;
+    padding: 50px 0px 10px 0px;
     color: rgb(0, 183, 255);
     font-size: 40px;
-    font-weight: bold ;
+    font-weight: bold;
   }
   .twitter_icon {
-    padding: 0px 10px 20px 0px;
-    margin: 0px;
+    padding: 0px 10px 40px 0px;
+    margin: 0 0 10px 0;
   }
 }
 </style>

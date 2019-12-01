@@ -1,7 +1,6 @@
 <template>
   <div>
     <v-app-bar
-      :color="primary"
       light
       fixed
       prominent
@@ -13,7 +12,7 @@
         </a>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <a class="a_form" href="https://docs.google.com/forms/d/e/1FAIpQLSfUOTLJO3ItHCT-CcBCwqD0FnQ3arEQWxJHzbUlKbRPvHRk9w/viewform?usp=sf_link" target="_blank">
+      <a class="a_form a_button" href="https://docs.google.com/forms/d/e/1FAIpQLSfUOTLJO3ItHCT-CcBCwqD0FnQ3arEQWxJHzbUlKbRPvHRk9w/viewform?usp=sf_link" target="_blank">
         <v-btn color="#3399ff" class="nav_button_send" x-large :min-height="60" :min-width="80">
           <span class="span_container1">
             The Prologueに申し込む
@@ -42,9 +41,6 @@
   .twitter {
     margin: 40px 40px 0px 60px;
   }
-  .twitter_icon {
-    padding: 0 5px 0 0;
-  }
   .button {
     color: "#fff"
   }
@@ -69,6 +65,9 @@
     text-align: center;
   }
   .nav_button_send {
+    display: none;
+  }
+  .a_button {
     display: none;
   }
   .nav_button_twitter {
@@ -115,6 +114,9 @@
     font-size: 20px;
     font-weight: bold ;
   }
+  .twitter_icon {
+    margin: 10px 0 0 0;
+  }
 }
 
 @media screen and (min-width:768px) {
@@ -135,9 +137,12 @@
     text-align: center;
     padding: 18px;
     margin: 30px;
+    color: "#fff";
     font-size: 17px;
     font-weight: bold ;
     display: center;
+  }  
+  .a_button {
   }
   .nav_button_twitter {
     justify-content: center;
@@ -177,6 +182,9 @@
     color: #fff;
     font-size: 30px;
     font-weight: bold ;
+  }
+  .twitter_icon {
+    margin: 18px 0 0 0;
   }
 }
 </style>

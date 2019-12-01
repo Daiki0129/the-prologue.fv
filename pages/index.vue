@@ -121,7 +121,7 @@
     <div class="container3">
       <div class="block">
         <h1 class="h1_subtitle3">
-          The Prologue
+          The <span class="span_subtitle1">P</span>rologue
         </h1>
         <div class="container_text">
           <p class="p_subtitle" :position="center">まだ見ぬ起業家とその物語と出会うことが僕たちの何よりの楽しみです。</p>
@@ -318,7 +318,7 @@ export default {
     font-weight: bold ;
   }
   .p_subtitle3 {
-    margin: 3px;
+    margin: 8px;
     font-size: 12px;
     color: #4d4c4c;
     font-weight: bold ;
@@ -385,7 +385,7 @@ export default {
     font-weight: bold ;
   }
   .span_tweet_container1 {
-    padding: 0px 20px 20px 0px;
+    padding: 0px 20px 10px 0px;
     color: rgb(0, 183, 255);
     font-size: 25px;
     font-weight: bold ;
@@ -510,7 +510,7 @@ export default {
     font-weight: bold ;
   }
   .span_tweet_container1 {
-    padding: 40px 0px 20px 0px;
+    padding: 40px 0px 10px 0px;
     color: rgb(0, 183, 255);
     font-size: 40px;
     font-weight: bold ;

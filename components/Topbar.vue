@@ -9,56 +9,18 @@
       <v-toolbar-title class="image">
         <a class="a_icon" href="https://f-ventures.vc" target="_blank">
           <el-image :src="require('~/assets/img/F-Ventures_logo2.png')" />
-          <!-- <span class="span_icon">とは？</span> -->
         </a>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <!-- <a class="a_form" href="https://twitter.com/Fventures_jp" target="_blank">
-        <el-button type="primary" class="nav_button_twitter" large>
-          <v-icon class="twitter_icon" :color="primary">mdi-twitter</v-icon>
-          <span color="primary">Twitter</span>
-        </el-button>
-      </a> -->
       <a class="a_form" href="https://docs.google.com/forms/d/e/1FAIpQLSfUOTLJO3ItHCT-CcBCwqD0FnQ3arEQWxJHzbUlKbRPvHRk9w/viewform?usp=sf_link" target="_blank">
         <el-button type="primary" class="nav_button_send" large>
           <i class="el-icon-loading"></i>
-          The prologueに申し込む
+          The Prologueに申し込む
         </el-button>
       </a>
     </v-app-bar>
   </div>
 </template>
-
-<script>
-
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo,
-  },
-  data() {
-    return {
-      activeIndex: '1',
-      activeIndex2: '1',
-      dialog: false,
-    };
-  },
-  methods: {
-    handleSelect(key, keyPath) {
-      console.log(key, keyPath);
-    },
-    open() {
-      this.$alert(
-        <Logo/>
-        ,'HTML String', {
-        dangerouslyUseHTMLString: true,
-        showConfirmButton: false
-      });
-    }
-  }
-}
-</script>
 
 <style>
   .container {

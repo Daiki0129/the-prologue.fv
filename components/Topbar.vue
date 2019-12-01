@@ -2,20 +2,23 @@
   <div>
     <v-app-bar
       :color="primary"
+      light
       fixed
       prominent
       elevate-on-scroll
     >
       <v-toolbar-title class="image">
         <a class="a_icon" href="https://f-ventures.vc" target="_blank">
-          <el-image :src="require('~/assets/img/F-Ventures_logo2.png')" />
+          <v-img :src="require('~/assets/img/F-Ventures_logo2.jpg')" />
         </a>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <a class="a_form" href="https://docs.google.com/forms/d/e/1FAIpQLSfUOTLJO3ItHCT-CcBCwqD0FnQ3arEQWxJHzbUlKbRPvHRk9w/viewform?usp=sf_link" target="_blank">
-        <el-button type="primary" class="nav_button_send" large>
-          The Prologueに申し込む
-        </el-button>
+        <v-btn color="#3399ff" class="nav_button_send" x-large :min-height="60" :min-width="80">
+          <span class="span_container1">
+            The Prologueに申し込む
+          </span>
+        </v-btn>
       </a>
     </v-app-bar>
   </div>
@@ -107,6 +110,11 @@
     text-decoration: none;
     color: "#fff"
   }
+  .span_container1 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold ;
+  }
 }
 
 @media screen and (min-width:768px) {
@@ -164,6 +172,11 @@
     font-weight: bold ;
     text-decoration: none;
     color: "#fff"
+  }
+  .span_container1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold ;
   }
 }
 </style>

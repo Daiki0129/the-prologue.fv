@@ -1,6 +1,6 @@
-# fv-web
+# the-prologue.fv
 
-> My amazing Nuxt.js project
+> The Prologue 〜シード投資家はあなたの物語のファン1号。〜
 
 ## Build Setup
 

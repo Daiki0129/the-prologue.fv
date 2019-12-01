@@ -10,16 +10,16 @@
           <p class="p_subtitle" :position="center">資金調達や事業の壁打ち、お茶などお気軽にご連絡ください！</p>
         </div>
         <a class="a_form" href="https://docs.google.com/forms/d/e/1FAIpQLSfUOTLJO3ItHCT-CcBCwqD0FnQ3arEQWxJHzbUlKbRPvHRk9w/viewform?usp=sf_link" target="_blank">
-          <el-button type="primary" class="button_container1" :position="center" x-large>
+          <v-btn color="#3399ff" class="button_container1" x-large :min-height="70" :min-width="80">
             <span class="span_container1">
               The Prologueに申し込む
             </span>
-          </el-button>
+          </v-btn>
         </a>
         <br>
         <a class="a_form" href="https://twitter.com/intent/tweet?text=The Prologue 〜シード投資家はあなたの物語のファン1号。〜&url=https://the-prologue-fv.web.app/&via=Fventures_jp&hashtags=ThePrologueFV,FVentures,fv登竜門" target="_blank">
-          <v-icon class="twitter_icon" :color="primary" :size="40">mdi-twitter</v-icon>
-          <span color="primary" class="span_tweet_container1">Tweet</span>
+          <v-icon class="twitter_icon" :size="40" :style="{ color: '#00acee' }">mdi-twitter</v-icon>
+          <span color="#00acee" class="span_tweet_container1">Tweet</span>
         </a>
       </div>
     </div>
@@ -125,7 +125,7 @@
     </div>
     <div class="container3">
       <div class="block">
-        <h1 class="h1_subtitle3">
+        <h1 class="h1_subtitle4">
           The <span class="span_subtitle1">P</span>rologue
         </h1>
         <div class="container_text">
@@ -133,28 +133,20 @@
           <p class="p_subtitle" :position="center">資金調達・事業の壁打ち・将来の相談、なんでも構いません。</p>
           <p class="p_subtitle" :position="center">お話していただける方は、下の申し込みフォームから、気軽にご連絡ください。</p>
           <a class="a_form" href="https://docs.google.com/forms/d/e/1FAIpQLSfUOTLJO3ItHCT-CcBCwqD0FnQ3arEQWxJHzbUlKbRPvHRk9w/viewform?usp=sf_link" target="_blank">
-            <el-button type="primary" class="button_container3" :position="center" x-large>
+            <v-btn color="#3399ff" class="button_container3" :position="center" x-large  :min-height="60" :min-width="80">
               <span class="span_container3">
                 The Prologueに申し込む
               </span>
-            </el-button>
+            </v-btn>
+          </a>
+          <br>
+          <a class="a_form" href="https://twitter.com/intent/tweet?text=The Prologue 〜シード投資家はあなたの物語のファン1号。〜&url=https://the-prologue-fv.web.app/&via=Fventures_jp&hashtags=ThePrologueFV,FVentures,fv登竜門" target="_blank">
+            <v-icon class="twitter_icon" :size="40" :style="{ color: '#00acee' }">mdi-twitter</v-icon>
+            <span color="primary" class="span_tweet_container1">Tweet</span>
           </a>
         </div>
       </div>
     </div>
-    <el-footer class="footer_el" light>
-      <a class="a_icon" href="https://www.facebook.com/fventures.vc" target="_blank">
-        <v-icon class="footer_icon" color="primary" :size="50">mdi-facebook</v-icon>
-      </a>
-      <a class="a_icon" href="https://twitter.com/Fventures_jp" target="_blank">
-        <v-icon class="footer_icon" color="primary" :size="50">mdi-twitter</v-icon>
-      </a>
-      <a class="a_icon" href="https://www.instagram.com/toryumontokyo/" target="_blank">
-        <v-icon class="footer_icon" color="primary" :size="50">mdi-instagram</v-icon>
-      </a>
-      <v-spacer></v-spacer>
-      <div class="footer_copy">&copy; {{ new Date().getFullYear() }} F Ventures All Rights Reserved.</div>
-    </el-footer>
   </div>
 </template>
 
@@ -303,17 +295,25 @@ export default {
   .h1_subtitle1{
     margin: 25px 0px 25px 0px;
     font-size: 43px;
+    color: #303030;
     font-weight: bold ;
   }
   .h1_subtitle2 {
     margin: 50px 0 50px 0;
     font-size: 43px;
-    color: #000;
+    color: #303030;
     font-weight: bold ;
   }
   .h1_subtitle3 {
     margin: 20px;
     font-size: 43px;
+    color: #303030;
+    font-weight: bold ;
+  }
+  .h1_subtitle4 {
+    margin: 40px;
+    font-size: 43px;
+    color: #303030;
     font-weight: bold ;
   }
   .p_subtitle{
@@ -371,7 +371,7 @@ export default {
     align-items: center;
     text-align: center;
     padding: 15px 20px;
-    margin: 60px 0px;
+    margin: 60px 0px 40px 0px;
     display: center;
   }
   .button_tweet_container1 {
@@ -433,18 +433,26 @@ export default {
   }
   .h1_subtitle1 {
     margin: 100px 0px 50px 0px;
-    font-size: 100px;
+    font-size: 80px;
+    color: #303030;
     font-weight: bold ;
   }
   .h1_subtitle2 {
     margin: 100px 0 100px 0;
-    font-size: 70px;
-    color: #000;
+    font-size: 50px;
+    color: #303030;
     font-weight: bold ;
   }
   .h1_subtitle3 {
     margin: 40px;
+    font-size: 50px;
+    color: #303030;
+    font-weight: bold ;
+  }
+  .h1_subtitle4 {
+    margin: 40px;
     font-size: 70px;
+    color: #303030;
     font-weight: bold ;
   }
   .p_subtitle{
@@ -498,7 +506,7 @@ export default {
     align-items: center;
     text-align: center;
     padding: 30px 100px;
-    margin: 70px 0px;
+    margin: 70px 0px 40px 0px;
     display: center;
   }
   .button_tweet_container1 {

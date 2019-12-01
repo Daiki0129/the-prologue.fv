@@ -17,7 +17,7 @@
           </v-btn>
         </a>
         <br>
-        <a class="a_form" href="https://twitter.com/intent/tweet?text=The Prologue 〜シード投資家はあなたの物語のファン1号。〜&url=https://theprologuefv.com/&hashtags=ThePrologueFV,FVentures,fv登竜門" target="_blank">
+        <a class="a_form" href="https://twitter.com/intent/tweet?text=The Prologue 〜シード投資家はあなたの物語のファン1号。〜&hashtags=ThePrologueFV,FVentures,fv登竜門&url=https://theprologuefv.com/" target="_blank">
           <v-icon class="twitter_icon" :size="35" :style="{ color: '#00acee' }">mdi-twitter</v-icon>
           <span color="#00acee" class="span_tweet_container1">Tweet</span>
         </a>
@@ -140,7 +140,7 @@
             </v-btn>
           </a>
           <br>
-          <a class="a_form" href="https://twitter.com/intent/tweet?text=The Prologue 〜シード投資家はあなたの物語のファン1号。〜&url=https://theprologuefv.com/&hashtags=ThePrologueFV,FVentures,fv登竜門" target="_blank">
+          <a class="a_form" href="https://twitter.com/intent/tweet?text=The Prologue 〜シード投資家はあなたの物語のファン1号。〜&hashtags=ThePrologueFV,FVentures,fv登竜門&url=https://theprologuefv.com/" target="_blank">
             <v-icon class="twitter_icon" :size="40" :style="{ color: '#00acee' }">mdi-twitter</v-icon>
             <span color="primary" class="span_tweet_container1">Tweet</span>
           </a>

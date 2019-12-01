@@ -7,19 +7,20 @@
       elevate-on-scroll
     >
       <v-toolbar-title class="image">
-        <a class="a_form" href="https://f-ventures.vc" target="_blank">
-          <el-image :src="require('~/assets/img/F-Ventures_logo.png')" />
+        <a class="a_icon" href="https://f-ventures.vc" target="_blank">
+          <el-image :src="require('~/assets/img/F-Ventures_logo2.png')" />
+          <!-- <span class="span_icon">とは？</span> -->
         </a>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <a class="a_form" href="https://twitter.com/Fventures_jp" target="_blank">
+      <!-- <a class="a_form" href="https://twitter.com/Fventures_jp" target="_blank">
         <el-button type="primary" class="nav_button_twitter" large>
           <v-icon class="twitter_icon" :color="primary">mdi-twitter</v-icon>
           <span color="primary">Twitter</span>
         </el-button>
-      </a>
+      </a> -->
       <a class="a_form" href="https://docs.google.com/forms/d/e/1FAIpQLSfUOTLJO3ItHCT-CcBCwqD0FnQ3arEQWxJHzbUlKbRPvHRk9w/viewform?usp=sf_link" target="_blank">
-        <el-button type="success" class="nav_button_send" large>
+        <el-button type="primary" class="nav_button_send" large>
           <i class="el-icon-loading"></i>
           The prologueに申し込む
         </el-button>
@@ -133,6 +134,18 @@ export default {
     font-size: 10px;
     font-weight: bold ;
   }
+  .a_icon {
+    text-decoration: none;
+    color: "#fff"
+  }
+
+  .span_icon {
+    margin: 0px 10px 0px 290px;
+    font-size: 20px;
+    font-weight: bold ;
+    text-decoration: none;
+    color: "#fff"
+  }
 }
 
 @media screen and (min-width:768px) {
@@ -183,6 +196,13 @@ export default {
     margin: 5px;
     font-size: 20px;
     font-weight: bold ;
+  }
+  .span_icon {
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bold ;
+    text-decoration: none;
+    color: "#fff"
   }
 }
 </style>

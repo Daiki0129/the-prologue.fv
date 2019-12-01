@@ -3,20 +3,23 @@
     <Topbar />
     <div class="container">
       <div class="block">
-        <img class="img" :src="require('~/assets/img/talk2.jpg')"/>
         <div class="block">
-          <h1 class="h1_subtitle1">The prologue</h1>
-          <p class="p_subtitle" :position="center">シード投資家はあなたの物語のファン1号。</p>
-          <p class="p_subtitle" :position="center">起業家との個別相談会</p>
-          <p class="p_subtitle" :position="center">シード投資家「F Ventures（エフベンチャーズ）」とのMTGを、誰でも登録出来ます。</p>
-          <p class="p_subtitle" :position="center">初めての方でも、お気軽に下記からご連絡下さい。</p>
+          <h1 class="h1_subtitle1">The <span class="span_subtitle1">P</span>rologue</h1>
+          <p class="p_subtitle" :position="center">起業家との投資面談「The Prologue」実施中！</p>
+          <p class="p_subtitle" :position="center">福岡と東京に拠点を置く「F Ventures」との面談を誰でも申し込めます。</p>
+          <p class="p_subtitle" :position="center">資金調達や事業の壁打ち、お茶などお気軽にご連絡ください！</p>
         </div>
         <a class="a_form" href="https://docs.google.com/forms/d/e/1FAIpQLSfUOTLJO3ItHCT-CcBCwqD0FnQ3arEQWxJHzbUlKbRPvHRk9w/viewform?usp=sf_link" target="_blank">
-          <el-button type="success" class="button" :position="center" x-large>
-            <span class="span">
-              The prologueに申し込む
+          <el-button type="primary" class="button_container1" :position="center" x-large>
+            <span class="span_container1">
+              The Prologueに申し込む
             </span>
           </el-button>
+        </a>
+        <br>
+        <a class="a_form" href="https://twitter.com/intent/tweet?text=The Prologue 〜シード投資家はあなたの物語のファン1号。〜&url=https://the-prologue-fv.web.app/&via=Fventures_jp&hashtags=ThePrologueFV,FVentures,fv登竜門" target="_blank">
+          <v-icon class="twitter_icon" :color="primary" :size="40">mdi-twitter</v-icon>
+          <span color="primary" class="span_tweet_container1">Tweet</span>
         </a>
       </div>
     </div>
@@ -39,7 +42,7 @@
           <p class="p_subtitle" :position="center">真冬の寒さで手がかじかんでしまうのなら、暖炉を組み立てよう。</p>
         </div>
         <div class="container_text">
-          <p class="p_subtitle" :position="center">あなたがどうしても書けないと言うのなら、僕たちが代わりに物語を紡ごう。</p>
+          <p class="p_subtitle" :position="center">あなたがどうしても書けないと言うのなら、僕たちが代わりに筆を持とう。</p>
         </div>
         <div class="container_text">
           <p class="p_subtitle" :position="center">そうして、六畳一間のアパートの一室からあなたの物語を始めよう。</p>
@@ -51,7 +54,7 @@
           <p class="p_subtitle" :position="center">あなたの物語にはそれだけの価値があるんだ。</p>
         </div>
         <div class="container_text">
-          <p class="p_subtitle" :position="center">僕たちはあなたの才能と可能性とあなたの物語にすっかり惚れ込んでしまっているのだから。</p>
+          <p class="p_subtitle" :position="center">僕たちはあなたの才能、可能性、そして物語にすっかり惚れ込んでしまっているのだから。</p>
         </div>
         <div class="container_text">
           <p class="p_subtitle" :position="center">力強く書かれた言葉。</p>
@@ -69,16 +72,10 @@
           <p class="p_subtitle" :position="center">僕たちは、あなたの書き上げた物語を書店で手に取り、こっそり読むんだ。</p>
         </div>
         <div class="container_text">
-          <p class="p_subtitle" :position="center">あなたの物語にはそれだけの価値があるんだ。</p>
-        </div>
-        <div class="container_text">
           <p class="p_subtitle" :position="center">あなたは物語が完成したら、きっとまた新しい物語を描くんだろう。</p>
         </div>
         <div class="container_text">
           <p class="p_subtitle" :position="center">僕たちもまた、新たな物語を紡ごうとする起業家とともに、新たな物語を紡いでいるだろう。</p>
-        </div>
-        <div class="container_text">
-          <p class="p_subtitle" :position="center">あなたの物語にはそれだけの価値があるんだ。</p>
         </div>
         <div class="container_text">
           <p class="p_subtitle" :position="center">だが、それでいい。</p>
@@ -87,29 +84,27 @@
           <p class="p_subtitle" :position="center">僕たちは、見たことのない景色を見たくてたまらない生き物なのだから。</p>
         </div>
         <div class="container_text">
-          <p class="p_subtitle" :position="center">だけど、忘れないでほしい。</p>
+          <p class="p_subtitle" :position="center">そして、忘れないでほしい。</p>
         </div>
         <div class="container_text">
           <p class="p_subtitle" :position="center">あなたが新たな物語を描こうとする時、あなたにはすでに僕たちというファンがいることを。</p>
-        </div>
-        <div class="container_text">
-          <p class="p_subtitle" :position="center">何かなくても、力になりたいと思っている人がいることを。</p>
         </div>
         <div class="container_text_end">
-          <p class="p_subtitle" :position="center">あなたが新たな物語を描こうとする時、あなたにはすでに僕たちというファンがいることを。</p>
+          <p class="p_subtitle" :position="center">何かなくても、力になりたいと思っている人がいることを。</p>
         </div>
       </div>
     </div>
-    <div class="container2">
+    <div class="container4">
       <div class="block">
         <h1 class="h1_subtitle3">
           OVERVIEW
         </h1>
-        <div class="container_text">
-          <p class="p_subtitle" >所要時間：20分ほどいただければと思います！</p>
-          <p class="p_subtitle" >場所：渋谷</p>
-          <p class="p_subtitle" >※日程の調整は、フォーム記入後の画面に候補日程を記載したURLを表示します。</p>
-          <p class="p_subtitle" >続けてURLから申請をお願いします。</p>
+        <div class="container_text3">
+          <p class="p_subtitle3" >所要時間: 約30分</p>
+          <p class="p_subtitle3" >場所: 東京・福岡・(テレカンも可)</p>
+          <p class="p_subtitle3" >日程: フォーム記入後に候補日程を表示したURLを送信致しますので、そちらから選択していただければと思います。</p>
+          <p class="p_subtitle3" >*東京・福岡での具体的な場所は日程によって変動する場合がございますので、あらかじめ御了承ください。</p>
+          <p class="p_subtitle3" >*テレカンの場合には、こちらからURLを送信致します。</p>
         </div>
       </div>
     </div>
@@ -126,16 +121,16 @@
     <div class="container3">
       <div class="block">
         <h1 class="h1_subtitle3">
-          The prologue
+          The Prologue
         </h1>
         <div class="container_text">
           <p class="p_subtitle" :position="center">まだ見ぬ起業家とその物語と出会うことが僕たちの何よりの楽しみです。</p>
           <p class="p_subtitle" :position="center">資金調達・事業の壁打ち・将来の相談、なんでも構いません。</p>
           <p class="p_subtitle" :position="center">お話していただける方は、下の申し込みフォームから、気軽にご連絡ください。</p>
           <a class="a_form" href="https://docs.google.com/forms/d/e/1FAIpQLSfUOTLJO3ItHCT-CcBCwqD0FnQ3arEQWxJHzbUlKbRPvHRk9w/viewform?usp=sf_link" target="_blank">
-            <el-button type="success" class="button" :position="center" x-large>
-              <span class="span">
-                The prologueに申し込む
+            <el-button type="primary" class="button_container3" :position="center" x-large>
+              <span class="span_container3">
+                The Prologueに申し込む
               </span>
             </el-button>
           </a>
@@ -144,16 +139,16 @@
     </div>
     <el-footer class="footer_el" light>
       <a class="a_icon" href="https://www.facebook.com/fventures.vc" target="_blank">
-        <v-icon class="facebook_icon footer_icon" color="primary" :size="50">mdi-facebook</v-icon>
+        <v-icon class="footer_icon" color="primary" :size="50">mdi-facebook</v-icon>
       </a>
       <a class="a_icon" href="https://twitter.com/Fventures_jp" target="_blank">
-        <v-icon class="twitter_icon footer_icon" color="primary" :size="50">mdi-twitter</v-icon>
+        <v-icon class="footer_icon" color="primary" :size="50">mdi-twitter</v-icon>
       </a>
       <a class="a_icon" href="https://www.instagram.com/toryumontokyo/" target="_blank">
-        <v-icon class="instagram_icon footer_icon" color="primary" :size="50">mdi-instagram</v-icon>
+        <v-icon class="footer_icon" color="primary" :size="50">mdi-instagram</v-icon>
       </a>
       <v-spacer></v-spacer>
-      <div class="footer_copy">&copy; {{ new Date().getFullYear() }} F Ventures Capital All Right Reserved.</div>
+      <div class="footer_copy">&copy; {{ new Date().getFullYear() }} F Ventures All Rights Reserved.</div>
     </el-footer>
   </div>
 </template>
@@ -161,12 +156,10 @@
 <script>
 import ElementUI from 'element-ui'
 import Vuetify from 'vuetify'
-import Logo from '~/components/Logo.vue'
 import Topbar from '~/components/Topbar.vue'
 
 export default {
   components: {
-    Logo,
     Topbar
   },
   data() {
@@ -217,7 +210,19 @@ export default {
   background-repeat: no-repeat;
   background-image: url("../assets/img/fventures_ryokadosan1.jpg");
 }
-
+.container4 {
+  width: 100%;
+  height: 100%;
+  max-width: 300vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../assets/img/the_prologue4.jpg");
+}
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -260,6 +265,9 @@ export default {
   text-decoration: none;
   color: "#fff"
 }
+.span_subtitle1 {
+  color: rgb(0, 183, 255);
+}
 
 @media screen and (max-width: 767px) {
   .img{
@@ -288,19 +296,19 @@ export default {
     font-size: 15px
   }
   .h1_subtitle1{
-    margin: 10px;
-    font-size: 40px;
+    margin: 25px 0px 25px 0px;
+    font-size: 43px;
     font-weight: bold ;
   }
   .h1_subtitle2 {
-    margin: 40px 0 20px 0;
-    font-size: 30px;
+    margin: 50px 0 50px 0;
+    font-size: 43px;
     color: #000;
     font-weight: bold ;
   }
   .h1_subtitle3 {
     margin: 20px;
-    font-size: 40px;
+    font-size: 43px;
     font-weight: bold ;
   }
   .p_subtitle{
@@ -309,8 +317,18 @@ export default {
     color: #4d4c4c;
     font-weight: bold ;
   }
+  .p_subtitle3 {
+    margin: 3px;
+    font-size: 12px;
+    color: #4d4c4c;
+    font-weight: bold ;
+  }
   .container_text {
     margin: 20px;
+  }
+  .container_text3 {
+    margin: 45px 15px 10px 15px;
+    text-align: center;
   }
   .container_text_end {
     margin: 20px 20px 80px 20px;
@@ -333,6 +351,48 @@ export default {
     margin: 10px 0px 0px 0px;
     width: 350px;
     height: 2000px;
+  }
+  .button_container1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 50px;
+    margin: 20px 0;
+    display: center;
+  }
+  .button_container3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 60px 0px;
+    display: center;
+  }
+  .button_tweet_container1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 40px;
+    display: center;
+  }
+  .span_container1 {
+    font-size: 20px;
+    font-weight: bold ;
+  }
+  .span_container3 {
+    font-size: 20px;
+    font-weight: bold ;
+  }
+  .span_tweet_container1 {
+    padding: 0px 20px 20px 0px;
+    color: rgb(0, 183, 255);
+    font-size: 25px;
+    font-weight: bold ;
+  }
+  .twitter_icon {
+    padding: 0px 5px 15px 0px;
+    margin: 0px;
   }
 }
 
@@ -364,19 +424,19 @@ export default {
     font-size: 30px
   }
   .h1_subtitle1 {
-    margin: 10px;
-    font-size: 50px;
+    margin: 100px 0px 50px 0px;
+    font-size: 100px;
     font-weight: bold ;
   }
   .h1_subtitle2 {
-    margin: 60px 0 40px 0;
-    font-size: 60px;
+    margin: 100px 0 100px 0;
+    font-size: 70px;
     color: #000;
     font-weight: bold ;
   }
   .h1_subtitle3 {
     margin: 40px;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bold ;
   }
   .p_subtitle{
@@ -385,8 +445,18 @@ export default {
     color: #4d4c4c;
     font-weight: bold ;
   }
+  .p_subtitle3{
+    margin: 15px;
+    font-size: 20px;
+    color: #4d4c4c;
+    font-weight: bold ;
+  }
   .container_text {
     margin: 30px;
+  }
+  .container_text3 {
+    margin: 130px 0px 10px 110px;
+    text-align: left;
   }
   .container_text_end {
     margin: 30px 30px 150px 30px;
@@ -406,6 +476,48 @@ export default {
     margin: 10px 0px 0px 0px;
     width: 1000px;
     height: 2500px;
+  }
+  .button_container1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 60px;
+    margin: 20px 0;
+    display: center;
+  }
+  .button_container3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 100px;
+    margin: 70px 0px;
+    display: center;
+  }
+  .button_tweet_container1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 135px;
+    margin: 0px;
+    display: center;
+  }
+  .span_container1 {
+    font-size: 30px;
+    font-weight: bold ;
+  }
+  .span_container3 {
+    font-size: 30px;
+    font-weight: bold ;
+  }
+  .span_tweet_container1 {
+    padding: 40px 0px 20px 0px;
+    color: rgb(0, 183, 255);
+    font-size: 40px;
+    font-weight: bold ;
+  }
+  .twitter_icon {
+    padding: 0px 10px 20px 0px;
+    margin: 0px;
   }
 }
 </style>
